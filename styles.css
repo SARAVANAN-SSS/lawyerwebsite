@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: red;
+  /* color: white; */
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
