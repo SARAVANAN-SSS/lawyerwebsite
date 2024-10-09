@@ -299,6 +299,7 @@ h3{
   padding: 0 5em 5em 5em;
   overflow: hidden;
   animation: scroll 15s linear infinite;
+  width: 100%;
 }
 
 .pics img {
@@ -325,6 +326,7 @@ h3{
   padding: 0 5em 5em 5em;
   overflow: hidden;
   animation: scroll-reverse 15s linear infinite;
+  width: 100%;
 }
 
 .certifications img {
@@ -343,3 +345,4 @@ h3{
     transform: translateX(100%);
   }
 }
+
