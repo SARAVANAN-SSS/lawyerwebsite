@@ -127,6 +127,7 @@ li{
 
 .about-us-headline{
   margin-bottom: 1em;
+  font-size: 25px;
 }
 
 .choose{
@@ -137,6 +138,16 @@ li{
 
 .choose-headline{
   width: 130%;
+  font-size: 25px;
+}
+
+.service{
+  font-size: 25px;
+}
+
+h3{
+  font-family: 'Lexend', sans-serif;
+  /* font-size: 25px; */
 }
 
 .choose-headline h3{
@@ -194,4 +205,141 @@ li{
 .footer-last{
   text-align: center;
   margin-top: 3em;
+}
+
+.success{
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 25px;
+}
+
+.clients{
+  padding: 2em 19em 4em 19em;
+  width: 100%;
+}
+
+.client-para{
+  text-align: left;
+  padding: 2em 7em;
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.6);
+}
+
+
+.client-thank{
+  text-align: center;
+  margin: 1em 0;
+}
+
+.client-name{
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.pics{
+  display: flex;
+  gap: 2em;
+  padding: 0 5em 5em 5em;
+  overflow: hidden;
+  animation: scroll 15s linear infinite;
+}
+
+
+.pics img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Keyframes for scrolling animation */
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+/* Certificates */
+
+.certifications{
+  display: flex;
+  gap: 2em;
+  padding: 0 5em 5em 5em;
+  overflow: hidden;
+  animation: scroll 15s linear infinite;
+}
+
+.certifications img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Keyframes for scrolling animation */
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+
+
+.pics {
+  display: flex;
+  gap: 2em;
+  padding: 0 5em 5em 5em;
+  overflow: hidden;
+  animation: scroll 15s linear infinite;
+}
+
+.pics img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Certificates */
+.certifications {
+  display: flex;
+  gap: 2em;
+  padding: 0 5em 5em 5em;
+  overflow: hidden;
+  animation: scroll-reverse 15s linear infinite;
+}
+
+.certifications img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Keyframes for reverse scrolling animation */
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
