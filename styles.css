@@ -346,3 +346,84 @@ h3{
   }
 }
 
+
+
+/* lll */
+
+
+
+@media screen and (max-width: 768px) {
+  /* .header, .services, .journey, .clients {
+    display: none;
+  } */
+
+
+
+  .footer{
+    padding: 1em;
+    text-align: center;
+  }
+
+  .footer-links-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+  }
+
+  .contact{
+    margin-top: 2em;
+
+  }
+  
+  .footer-first{
+    display: block;
+  }
+  
+  
+  .footer-second{
+    margin: 2em 0;
+    display: block;
+  }
+  
+  
+  .footer-third{
+    margin: 0 0 2em 0;
+    display: block;
+  }
+
+  .email{
+    margin-top: 2em;
+  }
+
+  .footer-last{
+    font-size: small;
+  }
+
+
+/* choose */
+
+
+.choose{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 2em;
+  padding: 0;
+}
+
+.choose-headline{
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+
+
+
+.choose-card{
+  width: 117%;
+}
+
+
+
+  
+
+}
